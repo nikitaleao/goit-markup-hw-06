@@ -26,6 +26,11 @@
           <a class="logo header-logo" href="./index.html"
             ><span class="logo-part">Web</span>studio</a
           >
+          <button class="mobile-menu-burger-btn" type="button">
+            <svg class="mobile-menu-burger-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
           <ul class="nav-list">
             <li class="nav-item">
               <a class="nav-link active" href="./index.html">Studio</a>
@@ -33,7 +38,9 @@
             <li class="nav-item">
               <a class="nav-link" href="">Portfolio</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="contacts">
@@ -62,7 +69,7 @@
         </div>
       </section>
 
-      <section class="features-section">
+      <section class="features-section section">
         <div class="container">
           <h2 class="visually-hidden">Our Features</h2>
           <ul class="features-list">
@@ -118,14 +125,18 @@
         </div>
       </section>
 
-      <section class="team-section">
+      <section class="team-section section">
         <div class="container">
           <h2 class="team-title section-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/our-team/mark.guerrero.jpg"
+                srcset="
+                  ./images/our-team/img-3.jpg     1x,
+                  ./images/our-team/img_@2x-3.jpg 2x
+                "
+                src="./images/our-team/img-3.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -193,7 +204,11 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/our-team/tom.ford.jpg"
+                srcset="
+                  ./images/our-team/img-2.jpg     1x,
+                  ./images/our-team/img_@2x-2.jpg 2x
+                "
+                src="./images/our-team/img-2.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -262,7 +277,11 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/our-team/camila.garcia.jpg"
+                srcset="
+                  ./images/our-team/img-1.jpg     1x,
+                  ./images/our-team/img_@2x-1.jpg 2x
+                "
+                src="./images/our-team/img-1.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -331,7 +350,11 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/our-team/daniel.wilson.jpg"
+                srcset="
+                  ./images/our-team/img.jpg     1x,
+                  ./images/our-team/img_@2x.jpg 2x
+                "
+                src="./images/our-team/img.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -400,7 +423,7 @@
         </div>
       </section>
 
-      <section class="portfolio-section">
+      <section class="portfolio-section section">
         <div class="container">
           <h2 class="portfolio-title section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -408,7 +431,11 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-img"
-                  src="./images/our-portfolio/img-1.jpg"
+                  srcset="
+                    ./images/our-portfolio/img-5.jpg     1x,
+                    ./images/our-portfolio/img_@2x-5.jpg 2x
+                  "
+                  src="./images/our-portfolio/img-5.jpg"
                   alt="Mobile banking app interface"
                   width="360"
                   height="300"
@@ -429,7 +456,11 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-img"
-                  src="./images/our-portfolio/img-2.jpg"
+                  srcset="
+                    ./images/our-portfolio/img-4.jpg     1x,
+                    ./images/our-portfolio/img_@2x-4.jpg 2x
+                  "
+                  src="./images/our-portfolio/img-4.jpg"
                   alt="Mobile phone scanning a QR code on a digital payment device"
                   width="360"
                   height="300"
@@ -449,6 +480,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/our-portfolio/img-3.jpg     1x,
+                    ./images/our-portfolio/img_@2x-3.jpg 2x
+                  "
                   src="./images/our-portfolio/img-3.jpg"
                   alt="Laptop and smartphone with modern app interface"
                   width="360"
@@ -469,7 +504,11 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-img"
-                  src="./images/our-portfolio/img-4.jpg"
+                  srcset="
+                    ./images/our-portfolio/img-2.jpg     1x,
+                    ./images/our-portfolio/img_@2x-2.jpg 2x
+                  "
+                  src="./images/our-portfolio/img-2.jpg"
                   alt="Driver using navigation app."
                   width="360"
                   height="300"
@@ -489,7 +528,11 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-img"
-                  src="./images/our-portfolio/img-5.jpg"
+                  srcset="
+                    ./images/our-portfolio/img-1.jpg     1x,
+                    ./images/our-portfolio/img_@2x-1.jpg 2x
+                  "
+                  src="./images/our-portfolio/img-1.jpg"
                   alt="Smartphone mockup with a set of five sci-fi space wallpapers."
                   width="360"
                   height="300"
@@ -509,7 +552,11 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-img"
-                  src="./images/our-portfolio/img-6.jpg"
+                  srcset="
+                    ./images/our-portfolio/img.jpg     1x,
+                    ./images/our-portfolio/img_@2x.jpg 2x
+                  "
+                  src="./images/our-portfolio/img.jpg"
                   alt="Smiling woman in orange sweater looking at her phone."
                   width="360"
                   height="300"
@@ -621,6 +668,94 @@
         </div>
       </div>
     </footer>
+    <div class="mobile-menu">
+      <button
+        class="mobile-menu-btn"
+        type="button"
+        aria-label="Close modal button"
+      >
+        <svg class="mobile-menu-btn-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link active" href="./index.html">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Contacts</a>
+        </li>
+      </ul>
+      <ul class="mobile-menu-contacts-list">
+        <li class="mobile-menu-contacts-item">
+          <a class="mobile-menu-contacts-link active" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="mobile-menu-contacts-item">
+          <a class="mobile-menu-contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="mobile-menu-list-socials">
+        <li class="mobile-menu-item-socials">
+          <a
+            class="mobile-menu-link-socials"
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to Instagram"
+          >
+            <svg class="mobile-menu-icon-socials" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-item-socials">
+          <a
+            class="mobile-menu-link-socials"
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to Twitter"
+          >
+            <svg class="mobile-menu-icon-socials" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-item-socials">
+          <a
+            class="mobile-menu-link-socials"
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to Facebook"
+          >
+            <svg class="mobile-menu-icon-socials" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-item-socials">
+          <a
+            class="mobile-menu-link-socials"
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to LinkedIn"
+          >
+            <svg class="mobile-menu-icon-socials" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
     <div class="backdrop">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="Close modal button">
@@ -702,8 +837,10 @@
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
             </span>
-            I accept the terms and conditions of the
-            <a class="contact-form-link" href="">Privacy Policy</a>
+            <span class="privacy-text">
+              I accept the terms and conditions of the
+              <a class="contact-form-link" href="">Privacy Policy</a>
+            </span>
           </label>
           <button class="btn-send" type="submit">Send</button>
         </form>
