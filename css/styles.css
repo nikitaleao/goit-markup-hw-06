@@ -664,6 +664,7 @@ img {
 }
 @media only screen and (min-width: 1158px) {
   .footer-wrap {
+    justify-content: space-between;
     width: 100%;
   }
 }
@@ -681,7 +682,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .footer-wrapper {
     width: 264px;
-    margin-right: 120px;
+    margin-right: 0;
   }
 }
 .footer-text {
@@ -707,11 +708,11 @@ img {
     align-items: start;
   }
 }
-@media only screen and (min-width: 1158px) {
+/* @media only screen and (min-width: 1158px) {
   .footer-socials {
     margin-right: 80px;
   }
-}
+} */
 .footer-socials-text {
   font-weight: 500;
   font-size: 16px;
@@ -758,6 +759,7 @@ img {
 }
 @media only screen and (min-width: 1158px) {
   .footer-form-wrapper {
+    display: flex;
     margin: 0;
     gap: 0;
   }
